@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" 
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/resset.css" />
+    <link rel="stylesheet" href="assets/css/messages.css" />
+    <title>Avaliação Final do Módulo - Introdução a Programação Para Web - JS</title>
+</head>
+<body>
+    <div class="container">
+    <div>
+      <h1>Meus recados:</h1>
+      <form class="form-inline">
+          <div class="form-group mb-2">
+        
+            <input type="text" class="form-control" id="contato" value="" placeholder="Contato">
+          </div>
+          <div class="form-group mx-sm-3 mb-2">
+            <input type="text" class="form-control" id="mensagem" value="" placeholder="Mensagem">
+          </div>
+          <button type="button" id="salvarMensagem" class="btn btn-primary mb-2">Salvar</button>
+        </form>
+  </div>
+  <div id="table">
+      <table class="table table-sm">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Usuário</th>
+              <th scope="col">Mensagem</th>
+              <th scope="col">Ação</th>
+            </tr>
+          </thead>
+          <tbody id="tbody">
+            
+          </tbody>
+        </table>
+    </div>
+  </div>
+
+  <button type="button" id="logout">Logout</button>
+<!--Modal-->
+<div id="modal">
+  <div id="modalEdit">
+    <h1>Editando...</h1>
+    <form class="form-inline">
+        <div class="form-group mb-2">
+      
+          <input type="text" class="form-control" id="contatoEdit" value="" placeholder="Contato">
+        </div>
+        <div class="form-group mx-sm-3 mb-2">
+          <input type="text" class="form-control" id="mensagemEdit" value="" placeholder="Mensagem">
+        </div>
+        <button type="button" id="btnSave">Salvar</button>
+        <button type="button" id="btnCancel">Cancelar</button>
+      </form>
+</div>
+</div>
+    <script src="assets/js/messages.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
+    crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" 
+    crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" 
+    crossorigin="anonymous"></script>
+</body>
+</html>

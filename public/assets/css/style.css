@@ -1,0 +1,92 @@
+#img {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: 0;
+}
+
+#bemVindo {
+    position: absolute;
+    top: 38%;
+    left: 21.5%;
+    width: 300px;
+    z-index: 1;
+}
+
+#form {
+    position: fixed;
+    left: 20%;
+    top: 48%;
+    background-color: rgb(216, 153, 72);
+    border-radius: 5px;
+    display: grid;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 16px 16px 10px black, -0.4em 0.7em 20em rgba(241, 225, 132, 0.781);
+}
+
+form>h1 {
+    font-size: 25px;
+    padding-bottom: 20px;
+    color: black;
+    filter: drop-shadow(3px 3px 10px whitesmoke);
+}
+
+.input-login {
+    font-size: 16px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border: 1px black solid;
+    padding: 5px;
+    width: 300px;
+
+}
+
+.btn-login {
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px black solid;
+    padding: 3px;
+    margin-top: 5px;
+    width: 100px;
+    margin-left: 33%;
+    background-color: #cf8c34;
+}
+
+.btn-login:active {
+    background-color: whitesmoke;
+}
+
+.btn-login:hover {
+    color: whitesmoke;
+}
+
+.btn-login2 {
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px black solid;
+    padding: 3px;
+    margin-top: 5px;
+    width: 150px;
+    margin-left: 25%;
+    background-color: #cf8c34;
+}
+
+.btn-login2:active {
+    background-color: whitesmoke;
+}
+
+.btn-login2:hover {
+    color: whitesmoke;
+}
+
+form>a {
+    font-size: 14px;
+    padding: 3px;
+    color: black;
+}
+
+form>a:hover {
+    color: white;
+    text-decoration: none;
+}

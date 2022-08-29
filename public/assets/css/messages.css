@@ -1,0 +1,135 @@
+body {
+    background-color: black;
+    color: #ca593d;
+}
+
+h1 {
+    margin-left: 20px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-size: 45px;
+}
+
+.form-inline {
+    padding: 5px;
+    font-size: 14px;
+}
+
+#salvarMensagem {
+    font-size: 16px;
+    border: #db5938 2px solid;
+    border-radius: 5px;
+    padding: 3px;
+    width: 100px;
+    background-color: #db5938;
+}
+
+:is(#salvarMensagem,
+    #btnEditar,
+    #btnApagar,
+    #logout, #btnCancel, #btnSave):active {
+    background-color: whitesmoke;
+    color: black;
+}
+
+:is(#salvarMensagem,
+    #logout):hover {
+    border: whitesmoke 3px solid;
+    opacity: 100%;
+    filter: drop-shadow(1px 1px 13px rgb(35, 205, 243));
+}
+
+:is(#btnApagar,
+    #btnEditar, #btnSave, #btnCancel):hover {
+    border: whitesmoke 3px solid;
+    opacity: 100%;
+    filter: drop-shadow(1px 1px 13px #ca593d);
+}
+
+#btnEditar {
+    margin-right: 3px;
+    width: 70px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    border: #ca593d 2px solid;
+    color: black;
+}
+
+#btnSave {
+    font-size: 18px;
+    margin-right: 5px;
+    width: 90px;
+    height: 38px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    border: #ca593d 2px solid;
+    color: black;
+}
+
+#btnApagar {
+    margin-left: 3px;
+    width: 70px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    border: #ca593d 2px solid;
+    color: black;
+}
+
+#btnCancel {
+    font-size: 18px;
+    margin-left: 5px;
+    width: 90px;
+    height: 38px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    border: #ca593d 2px solid;
+    color: black;
+}
+
+#table {
+    background-color: azure;
+    text-align: center;
+}
+
+table>tbody>tr>td>#action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#logout {
+    position: fixed;
+    top: 1.8rem;
+    right: 24.8rem;
+    font-size: 16px;
+    width: 70px;
+    padding: 3px;
+    border-radius: 5px;
+    background-color: #db5938;
+    color: whitesmoke;
+    opacity: 85%;
+}
+
+#modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7) !important;
+    z-index: 99999;
+}
+
+#modalEdit {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    background-color: #fff;
+    width: 50%;
+    /* height: 42%; */
+    transform: translateY(-50%) translateX(-50%);
+}
