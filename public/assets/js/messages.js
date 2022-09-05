@@ -29,9 +29,9 @@ function atualizaMessages() {
 const btnSalvarMensagem = document.getElementById('salvarMensagem')
 btnSalvarMensagem.addEventListener('click', createMessage)
 
-let id = 1
 
 function createMessage() {
+    let id = 1
     const contato = document.getElementById('contato').value;
     const mensagem = document.getElementById('mensagem').value;
 
@@ -40,8 +40,17 @@ function createMessage() {
         return;
     }
 
+    if (usuario.messages.length > 0) {
+        const idLastMessage = usuario.messages.reduce((acc, next) => {
+            if (acc.id < next.id) {
+                return next
+            }
+            return acc
+        })
+        id = idLastMessage.id + 1
+    }
+
     usuario.messages.push({ id, contato, mensagem })
-    id++
 
     localStorage.setItem('usuarioLogado', JSON.stringify(usuario))
 
