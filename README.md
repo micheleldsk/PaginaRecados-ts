@@ -5,13 +5,9 @@ Upgrade tornando a page responsiva, utilizando @media queries e boostrap, além 
 <h4> Por Michele Ladanivski, Outubro/2022 </h4>
 
 <img src="https://user-images.githubusercontent.com/102632136/230996930-e843afe9-a155-435b-bebd-f585e92e4c56.gif" alt="LoginGif">
-<br>
 <img src="https://user-images.githubusercontent.com/102632136/230995061-f752c42b-c081-44ac-aa96-f68331444eab.jpg" alt="LoginImg">
-<br>
 <img src="https://user-images.githubusercontent.com/102632136/230996927-3bb19cec-b2f3-4177-8a4e-63b35b36aced.gif" alt="LoginCreateGif">
-<br>
 <img src="https://user-images.githubusercontent.com/102632136/230995059-8f36b976-d662-4afe-86a9-d8121ebe0bcd.jpg" alt="LoginCreateImg">
-<br>
 <img src="https://user-images.githubusercontent.com/102632136/230995067-257c44a2-b782-40dc-966e-3ecc1f5282bb.jpg" alt="Scrapbook">
 
 <h2> Habilidades trabalhadas neste projeto </h2>
