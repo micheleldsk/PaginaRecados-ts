@@ -1,6 +1,6 @@
 # PaginaRecados-ts
 
-<h3> Aplicação: Página de recados desenvolvida como atividade avaliatiova do módulo de Front End, dessa vez em TypeScript. <br>
+<h3> Aplicação: Página de recados desenvolvida como atividade avaliativa do módulo de Front End, dessa vez em TypeScript. <br>
 Upgrade tornando a page responsiva, utilizando @media queries e boostrap, além de adicionar uma simples animação e refatorado JS para TS afim de efetuar a tipagem do code. </h3>
 <h4> Por Michele Ladanivski, Outubro/2022 </h4>
 
