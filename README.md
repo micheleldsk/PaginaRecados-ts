@@ -2,7 +2,7 @@
 
 <h4> Aplicação: Página de recados desenvolvida como atividade avaliativa do módulo de Front End, dessa vez em TypeScript. <br>
 Upgrade tornando a page responsiva, utilizando @media queries e boostrap, além de adicionar uma simples animação e refatorado JS para TS afim de efetuar a tipagem do code. </h4>
-<h5> Por Michele Ladanivski, Outubro/2022 </h5>
+<h5> Por Michele Ladanivski (@micheleldsk), Outubro/2022 </h5>
 
 <img src="https://user-images.githubusercontent.com/102632136/230996930-e843afe9-a155-435b-bebd-f585e92e4c56.gif" alt="LoginGif">
 <img src="https://user-images.githubusercontent.com/102632136/230995061-f752c42b-c081-44ac-aa96-f68331444eab.jpg" alt="LoginImg">
